@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./main.js" defer></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="./media/logo.svg" alt="RSK" />
+      </div>
+      <nav data-nav>
+        <ul>
+          <a href="#home" class="nav-link"
+            ><li>
+              <i class="fa-solid fa-house nav-icon"></i
+              ><span class="nav-link-txt">Home</span>
+            </li></a
+          >
+          <a href="#about-me" class="nav-link"
+            ><li>
+              <i class="fa-solid fa-user nav-icon"></i
+              ><span class="nav-link-txt">About</span>
+            </li></a
+          >
+          <a href="#projects" class="nav-link"
+            ><li>
+              <i class="fa-solid fa-list nav-icon"></i
+              ><span class="nav-link-txt">Projects</span>
+            </li></a
+          >
+          <!-- <a href="" class="nav-link"
+            ><li><i class="fa-solid fa-briefcase nav-icon"></i>Portfolio</li></a
+          > -->
+          <a href="#contact-me" class="nav-link"
+            ><li>
+              <i class="fa-solid fa-message nav-icon"></i
+              ><span class="nav-link-txt">Contact</span>
+            </li></a
+          >
+        </ul>
+      </nav>
+      <button class="nav-act-btn" data-nav-btn>
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </aside>
+    <main>
+      <section id="home" class="wrapper home">
+        <div class="home-cont">
+          <h3>
+            Hello, my name is <span class="highlighter">Robin Singh Kirar</span>
+          </h3>
+          <h2>I am a <span class="highlighter">Full Stack Developer</span></h2>
+          <p>
+            I am passionate about building beautiful and attractive web
+            applications.
+          </p>
+          <span><a href="#about-me" class="btn">More about me</a></span>
+        </div>
+        <div class="home-img-cont">
+          <div class="home-img">
+            <img src="./media/me.png" alt="Robin Singh Kirar" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section id="about-me" class="wrapper about">
+        <h1>About Me</h1>
+        <h2>
+          I'm Robin Singh Kirar and a
+          <span class="highlighter">Web Developer</span>
+        </h2>
+        <p>
+          I am a passionate and versatile Full Stack Developer with a strong
+          foundation in both front-end and back-end technologies. My mission is
+          to leverage my skills to create robust and innovative web applications
+          that deliver seamless user experiences.
+        </p>
+        <div class="about-details">
+          <div class="about-details-info">
+            <div class="about-details-info-cont">
+              <p class="about-details-info-card">
+                <span class="highlighter-light">Birthday : </span>02 June 2001
+              </p>
+              <p class="about-details-info-card">
+                <span class="highlighter-light">Age : </span>22
+              </p>
+              <p class="about-details-info-card">
+                <span class="highlighter-light">Email : </span
+                ><a href="mailto:robinkirar69@gmail.com"
+                  >robinkirar69@gmail.com</a
+                >
+              </p>
+              <p class="about-details-info-card">
+                <span class="highlighter-light">Degree : </span>B.Tech. (C.S.E.)
+              </p>
+              <p class="about-details-info-card">
+                <span class="highlighter-light">Mobile : </span
+                ><a href="tel:+91">+91-6261xxxxxx</a>
+              </p>
+              <p class="about-details-info-card">
+                <span class="highlighter-light">City : </span>Indore
+              </p>
+            </div>
+            <div class="about-details-info-btns">
+              <a
+                href="./media/Robin Singh Kirar.pdf"
+                target="_blank"
+                download
+                class="btn"
+                >Download CV</a
+              >
+              <a href="#contact-me" class="btn">Hire Me</a>
+            </div>
+          </div>
+          <div class="about-details-skills">
+            <div class="about-details-skill">
+              <div class="about-details-skill-header">
+                <span class="about-details-skill-name">HTML</span>
+                <span class="about-details-skill-comp">96%</span>
+              </div>
+              <div class="about-details-skill-bar-cont">
+                <span class="about-details-skill-bar" style="width: 96%"></span>
+              </div>
+            </div>
+            <div class="about-details-skill">
+              <div class="about-details-skill-header">
+                <span class="about-details-skill-name">CSS</span>
+                <span class="about-details-skill-comp">87%</span>
+              </div>
+              <div class="about-details-skill-bar-cont">
+                <span class="about-details-skill-bar" style="width: 87%"></span>
+              </div>
+            </div>
+            <div class="about-details-skill">
+              <div class="about-details-skill-header">
+                <span class="about-details-skill-name">Javascript</span>
+                <span class="about-details-skill-comp">90%</span>
+              </div>
+              <div class="about-details-skill-bar-cont">
+                <span class="about-details-skill-bar" style="width: 90%"></span>
+              </div>
+            </div>
+            <div class="about-details-skill">
+              <div class="about-details-skill-header">
+                <span class="about-details-skill-name">PHP</span>
+                <span class="about-details-skill-comp">60%</span>
+              </div>
+              <div class="about-details-skill-bar-cont">
+                <span class="about-details-skill-bar" style="width: 60%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="wrapper projects">
+        <h1>Projects</h1>
+        <div class="project-cards">
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/Webtoon-site.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title">Webtoon</h3>
+              <span class="project-card-des">
+                A web application to read web-toons.
+              </span>
+              <ul class="project-card-tech">
+                <li>React</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/gym-website.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title">GymX</h3>
+              <span class="project-card-des"> A web site for Gyms. </span>
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/cab-rental.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>Red Savari</span></h3>
+              <span class="project-card-des">
+                A web application to book cabs.
+              </span>
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/3d-cube.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>3D Cube</span></h3>
+              <span class="project-card-des">
+                3D animated cube with CSS animation.
+              </span>
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="
+              background-image: url('./media/projects/landing-page-traveller.png');
+            "
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>Traveller</span></h3>
+              <span class="project-card-des">
+                Landing page for travelling web sites.
+              </span>
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="
+              background-image: url('./media/projects/landing-page-space.png');
+            "
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>Space</span></h3>
+              <span class="project-card-des"> Animated Landing Page. </span>
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/snake-game.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>Snake Game</span></h3>
+              <span class="project-card-des"
+                >A snake game developed with HTML5 canvas and Javascript.</span
+              >
+              <ul class="project-card-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="project-card"
+            style="background-image: url('./media/projects/portfolio.png')"
+          >
+            <div class="project-card-details">
+              <h3 class="project-card-title"><span>Portfolio</span></h3>
+              <span class="project-card-des"
+                >A personal portfolio developed with react.</span
+              >
+              <ul class="project-card-tech">
+                <li>React</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact me -->
+      <section id="contact-me" class="wrapper contact-me">
+        <h1>Contact Me</h1>
+        <h2 class="highlighter text-center">SEND ME AN EMAIL</h2>
+        <form method="post" class="contact-form">
+          <div class="inp-two">
+            <input type="text" placeholder="Name" class="inp" />
+            <input type="text" placeholder="Email" class="inp" />
+          </div>
+          <div class="inp-one">
+            <input type="text" placeholder="Subject" class="inp" />
+          </div>
+          <textarea placeholder="Message" class="inp"></textarea>
+          <div><button type="submit" class="btn">Send Message</button></div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
